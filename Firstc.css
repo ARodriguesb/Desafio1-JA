@@ -1,0 +1,147 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #350104;
+}
+
+header {
+    background-color: transparent;
+    color: rgb(192, 52, 52);
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+li {
+    float: left;
+    padding: 20 10 20 10;
+}
+li:hover {
+    background-color: #c24268;
+}
+#imagem_fundo {
+    background: url("Imagens/64586a0ad51dc03.jpg");
+    height: 100%;
+    text-align: center;
+    background-size: cover;
+}
+
+#titulo {
+    color: #b61212;
+    padding-top: 20%;
+    font-size: 70px;
+    line-height: 0.6;
+    font-family: bungeeshade;
+    text-shadow: 0px 5px 10px #b2a98f,
+    0px 10px 10px rgba(0,0,0,0.15),
+    0px 15px 15px rgba(0,0,0,0.1),
+    0px 20px 20px rgba(0,0,0,0.1);
+    
+}
+#subtitulo {
+    color: #b61212;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-top: 2px solid rgb(114, 3, 3);
+    text-shadow: 1px 1px  rgb(19, 0, 0);
+    font-family: bungeeinline;
+}
+
+@font-face {
+    font-family: bungeeshade;
+    src: url('Font/BungeeShade-Regular/BungeeShade-Regular.ttf');
+}
+
+@font-face {
+    font-family: bungeeinline;
+    src: url('Font/Bungee_Inline/');
+}
+
+#subtitulocentralizado{
+    color: #b61212;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    text-shadow: 1px 1px  rgb(19, 0, 0);
+    font-family: bungeeinline;
+}
+#acao {
+    background-color: #680207;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    font-family: bungeeinline;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+    
+}
+#mis,
+#titulo,
+#desprojeto,
+#desprojeto2,
+#intruir,
+#ana,
+#new{
+    text-shadow: 0px 5px 10px #b2a98f,
+    0px 10px 10px rgba(0,0,0,0.15),
+    0px 15px 15px rgba(0,0,0,0.1),
+    0px 20px 20px rgba(0,0,0,0.1);
+}
+
+#caixa1,
+#caixa2{
+    border-style: dashed;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-left-width: 1px;
+}
+
+.icone {
+    width: 51px;
+}
+section {
+    padding: 20px;
+    float: left;
+}
+.sdestaque{
+    background-color: #ffffff;
+}
+
+.destaque {
+    background-color: #aa1b1b;
+}
+.imgeco {
+    width: 90%;
+    height: 30%;
+}
+.coluna {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    color: white;
+}
+.dois {
+    width: 40%;
+    color: #ffffff;
+}
+.justificado {
+    text-align: justify;
+}
+.centralizado {
+    text-align: center;
+    color: #ffffff;
+}
+footer {
+    background-color: #350104;
+    float: left;
+    width: 100%;
+    height: 7%;
+    color: white;
+}
